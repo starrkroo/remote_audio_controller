@@ -1,0 +1,80 @@
+
+html{
+    background-color: rgba(68, 165, 4, 0.575);
+}
+
+
+
+
+
+.container_switch_music{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 60%;
+	right: 0;
+}
+
+.switch_up, .switch_down{
+    width: 100%;
+    padding: 20px 80px;
+    border: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    bottom: 20%;
+	left: 0;
+}
+
+
+.first_button__take_more{
+    width: 100%;
+    
+}
+
+.container__pause_audio{
+    padding-left: 20%;
+}
+.pause_audio{
+    padding: 10% 0px;
+    width: 100%;
+    border: 0;
+}
+
+
+.take_more{
+    padding: 10% 0px;
+    width: 100%;
+    border: 0;
+}
+
+.second_button__take_less{
+    z-index: 999;
+}
+
+.take_less{
+    padding: 10% 0px;
+    width: 100%;
+    border: 0;
+}
+
+.third_button__mute{
+    padding-left: 70%;
+    right: 0;
+
+}
+.mute{
+    right: 0;
+    padding: 10% 0px;
+    width: 100%;
+    border: 0;
+}
+
+.take_more, .take_less, .switch_up, .switch_down, .pause_audio{
+    font-size: 30px;
+    font-weight: 500;
+}
